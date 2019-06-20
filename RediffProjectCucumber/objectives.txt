@@ -1,0 +1,13 @@
+Dynamic and easy to change
+Use generic, app steps, validation Steps - Done
+Pico container - share the driver between step definitions - Done
+Use the properties file to store locators, Titles, messages
+Re-usable utilities and functions
+Optionally run the scenarios
+Reporting and validation
+Screenshots in reports
+Parallel execution of scenarios
+Integrate Jenkins and GIT
+
+
+Implementing different scenarios

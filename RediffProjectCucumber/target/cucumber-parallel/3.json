@@ -1,0 +1,208 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 720115013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Logging into rediff.com",
+        "description": "",
+        "id": "testing-login;logging-into-rediff.com",
+        "after": [
+          {
+            "result": {
+              "duration": 12785255864,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26478065085,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I open chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5127170452,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I go to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186462134,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "username_text_field_id should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_text_field_id",
+                  "offset": 0
+                }
+              ],
+              "location": "ValidationSteps.verifyElementPresence(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1161696289,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I type ashishthakur1983 in username_text_field_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ashishthakur1983",
+                  "offset": 7
+                },
+                {
+                  "val": "username_text_field_id",
+                  "offset": 27
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763044895,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on username_submit_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_submit_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1396420782,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I type pass@1234 in password_text_field_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass@1234",
+                  "offset": 7
+                },
+                {
+                  "val": "password_text_field_xpath",
+                  "offset": 20
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357364602,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on password_submit_button_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_submit_button_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644266,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Login should be successful",
+            "match": {
+              "location": "AppSteps.loginSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@RediffLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Login",
+    "description": "",
+    "id": "testing-login",
+    "keyword": "Feature",
+    "uri": "D:/Whizdom-Trainings/Online Training Workspace/MayWeekday19/RediffProjectCucumber/src/test/resources/com/features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
