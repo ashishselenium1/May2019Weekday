@@ -18,6 +18,6 @@ import cucumber.api.junit.Cucumber;
 		//tags= {"@DeletePortFolio"}
 )
 
-public class MyRunner {
+public class MyRunnerTest {
 	
 }

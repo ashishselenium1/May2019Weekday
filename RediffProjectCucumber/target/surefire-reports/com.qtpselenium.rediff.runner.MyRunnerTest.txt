@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.qtpselenium.rediff.runner.MyRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.26 s - in com.qtpselenium.rediff.runner.MyRunnerTest
